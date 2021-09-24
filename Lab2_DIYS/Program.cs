@@ -4,7 +4,7 @@ namespace Lab2_DIYS
 {
     internal class Program
     {
-        private static void checkValid(int sin)
+        private static void CheckValid(int sin)
         {
             var counter = 1;
             var sum = 0;
@@ -60,7 +60,7 @@ namespace Lab2_DIYS
                 }
                 else
                 {
-                    Program.checkValid(sin);
+                    Program.CheckValid(sin);
                 }
             }
         }
